@@ -6,5 +6,7 @@ function Home() {
     return (
         <HeroSection />
         <Cards />
-    )
+    );
 }
+
+export default Home;
