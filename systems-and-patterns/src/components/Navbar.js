@@ -8,9 +8,12 @@ function Navbar() {
       <ul className="nav-links">
         <li>
           <a href="#" className="nav-link">
-            Contact
+            Blog
           </a>
         </li>
+        <a href="#" className="nav-link">
+          Contact
+        </a>
       </ul>
     </nav>
   );
