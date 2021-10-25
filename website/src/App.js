@@ -1,12 +1,16 @@
 import Navbar from "./components/Navbar";
 import Intro from "./components/Intro";
+import GlobalStyles from "./components/styles/Global";
 
 function App() {
   return (
-    <div>
-      <Navbar />
-      <Intro />
-    </div>
+    <>
+      <GlobalStyles />
+      <div>
+        <Navbar />
+        <Intro />
+      </div>
+    </>
   );
 }
 
