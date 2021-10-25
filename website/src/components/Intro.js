@@ -2,10 +2,6 @@ import React from "react";
 import styled from "styled-components";
 
 const Section = styled.section`
-  background: #f1eff4;
-  height: 200px;
-`;
-const Content = styled.div`
   display: flex;
   align-items: center;
   width: 50%;
@@ -13,10 +9,11 @@ const Content = styled.div`
   margin-top: 18vh;
   margin-bottom: 24vh;
 `;
-const Presentation = styled.div`
+const Content = styled.div`
   display: flex;
   flex-direction: column;
 `;
+
 const Title = styled.h2`
   font-size: 2.6rem;
   line-height: 3.1rem;
@@ -31,15 +28,13 @@ const Intro = () => {
   return (
     <Section>
       <Content>
-        <Presentation>
-          <Title>Hey there, I’m Christian Veigt</Title>
-          <Description>
-            A product designer and developer in Vancouver, currently working on
-            design systems <a href="\">@hashicorp</a>.
-            <br />
-            Previously, I designed <a href="\">@twilio</a>.
-          </Description>
-        </Presentation>
+        <Title>Hey there, I’m Christian Veigt</Title>
+        <Description>
+          A product designer and developer in Vancouver, currently working on
+          design systems <a href="\">@hashicorp</a>.
+          <br />
+          Previously, I designed <a href="\">@twilio</a>.
+        </Description>
       </Content>
     </Section>
   );
