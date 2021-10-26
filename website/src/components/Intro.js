@@ -28,9 +28,9 @@ const Intro = () => {
   return (
     <Section>
       <Content>
-        <Title>Hey there, I’m Christian Veigt</Title>
+        <Title>Hey there 👋</Title>
         <Description>
-          A product designer and developer in Vancouver, currently working on
+          A product designer and developer in Vancouver 🇨🇦 currently working on
           design systems <a href="\">@hashicorp</a>.
           <br />
           Previously, I designed <a href="\">@twilio</a>.
